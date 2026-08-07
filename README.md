@@ -136,6 +136,41 @@ python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 ---
 
+## 🌐 Live Cloud Deployment Guide (1-Click Hosting)
+
+You can deploy Voxora live to the web for free in under 2 minutes so anyone can access your live deployed link.
+
+### 🌟 Option 1: Render.com (Recommended - Free & Simplest)
+
+1. Sign in to [Render.com](https://render.com) using your GitHub account.
+2. Click **New +** → **Web Service**.
+3. Select your repository: **`Reethikaa05/Voxora`**.
+4. Render will automatically detect `render.yaml` or fill in the settings:
+   - **Environment**: `Python 3`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `cd backend && python -c "from app.seed import seed; seed()" && uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+5. Click **Create Web Service**. Render will build and launch your live app at a public URL (e.g. `https://voxora.onrender.com`).
+
+---
+
+### 🚀 Option 2: Railway.app
+
+1. Go to [Railway.app](https://railway.app) and click **New Project** → **Deploy from GitHub repo**.
+2. Select **`Reethikaa05/Voxora`**.
+3. Railway automatically detects the included `Dockerfile` or `Procfile` and deploys your service with a public HTTPS URL.
+
+---
+
+### 🐳 Option 3: Docker Deployment
+
+To build and run Voxora as a container locally or on any cloud server:
+```bash
+docker build -t voxora-app .
+docker run -d -p 8000:8000 voxora-app
+```
+
+---
+
 ## 🔍 What is Real vs. Mocked Matrix
 
 | Component | Status | Implementation Details |

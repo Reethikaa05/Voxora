@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: voxora-call-intelligence
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd backend && python -c "from app.seed import seed; seed()" && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

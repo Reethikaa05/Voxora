@@ -1,0 +1,40 @@
+{
+  "call_id": "call_004",
+  "advisor_external_id": "adv_004",
+  "customer_phone": "+919812345004",
+  "direction": "inbound",
+  "started_at": "2026-07-22 10:00:00",
+  "duration_sec": 38,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 4000,
+      "text": "Hi, this is Meera calling from FitNova Call Intelligence, am I speaking with Suresh?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 4000,
+      "end_ms": 11000,
+      "text": "Hello, yes this is Suresh. Look, I bought a commercial treadmill from FitNova Commercial Equipment 6 months ago and the motor is making a loud screeching noise. Can you send a technician to service it?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 11000,
+      "end_ms": 18000,
+      "text": "Oh, Suresh, this is FitNova Online Personal Fitness & Nutrition Coaching for individuals. You have reached the tele-advisory floor. Let me transfer your request to our commercial hardware support department at 1800-419-3884."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 18000,
+      "end_ms": 22000,
+      "text": "Ah, wrong department! Thank you for the number, Meera."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 22000,
+      "end_ms": 25000,
+      "text": "No problem at all Suresh! Have a wonderful day."
+    }
+  ]
+}

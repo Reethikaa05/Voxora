@@ -135,8 +135,18 @@ Run the single command script below to install dependencies, seed the organizati
 ```
 
 #### **Windows (PowerShell / CMD)**
+Option 1 (Direct Command):
 ```powershell
-python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
+```
+
+Option 2 (Script):
+```cmd
+run.bat
+```
+or
+```powershell
+.\run.ps1
 ```
 
 > [!TIP]

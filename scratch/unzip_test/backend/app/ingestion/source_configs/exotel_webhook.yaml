@@ -1,0 +1,23 @@
+# Illustrative field map for an Exotel-style telephony webhook payload.
+# Nothing in ingestion/base.py or the pipeline changes if FitNova switches to
+# (or adds) this vendor -- only this file is added.
+#
+# Example raw payload this maps:
+# {
+#   "CallSid": "abc123",
+#   "Agent": {"Id": "adv_009"},
+#   "To": "+919876543210",
+#   "Direction": "outbound-dial",
+#   "StartTime": "2026-07-01 10:15:00",
+#   "Duration": "612",
+#   "RecordingUrl": "https://exotel-recordings.example/abc123.mp3"
+# }
+source_name: exotel
+mapping:
+  external_id: CallSid
+  agent_external_id: Agent.Id
+  customer_phone_masked: To
+  direction: Direction
+  started_at: StartTime
+  duration_sec: Duration
+  audio_uri: RecordingUrl

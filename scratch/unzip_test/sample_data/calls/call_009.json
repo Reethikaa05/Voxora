@@ -1,0 +1,46 @@
+{
+  "call_id": "call_009",
+  "advisor_external_id": "adv_002",
+  "customer_phone": "+919812345009",
+  "direction": "inbound",
+  "started_at": "2026-07-25 14:00:00",
+  "duration_sec": 56,
+  "transcript": [
+    {
+      "speaker": "customer",
+      "start_ms": 0,
+      "end_ms": 4000,
+      "text": "Hi! Before we start the call, can you please tell me upfront what the exact monthly price of FitNova coaching is?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 4000,
+      "end_ms": 10000,
+      "text": "Hi Kavita! Welcome to FitNova. Our standard personal coaching packages range from rupees three thousand five hundred to rupees five thousand five hundred per month depending on trainer tier and meal customization."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 10000,
+      "end_ms": 14000,
+      "text": "Okay rupees three thousand five hundred to rupees five thousand five hundred sounds reasonable. Now tell me what is included in the program?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 14000,
+      "end_ms": 21000,
+      "text": "Great! Our plan includes 1-on-1 custom macro plans, certified fitness coach allocation, app habit tracking, and 24/7 WhatsApp query support."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 21000,
+      "end_ms": 24000,
+      "text": "That sounds comprehensive. Can we schedule a trial?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 24000,
+      "end_ms": 29000,
+      "text": "Absolutely! I have booked your free trial session for Friday at 5:00 PM online with Coach Ananya."
+    }
+  ]
+}

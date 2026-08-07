@@ -1,0 +1,76 @@
+{
+  "call_id": "call_001",
+  "advisor_external_id": "adv_001",
+  "customer_phone": "+919812345001",
+  "direction": "outbound",
+  "started_at": "2026-07-20 09:15:00",
+  "duration_sec": 76,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 4000,
+      "text": "Hi Ananya, this is Neha from FitNova! Thank you for reaching out about our personal online fitness & nutrition coaching. Before we dive into plan details, I would love to understand your primary health and wellness goals right now?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 4000,
+      "end_ms": 8000,
+      "text": "Hi Neha! I am trying to lose around 7 to 8 kg of post-pregnancy weight and get back my core strength. I work 9 to 6 so I need a flexible routine."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 8000,
+      "end_ms": 13000,
+      "text": "That is a very common and achievable goal, Ananya! What kind of budget do you have in mind per month, and do you have any existing injuries or lower back sensitivity?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 13000,
+      "end_ms": 17000,
+      "text": "Around rupees four thousand to five thousand a month. No major injuries, but my lower back gets stiff if I sit for too long."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 17000,
+      "end_ms": 25000,
+      "text": "Understood. Based on your goals and schedule, I recommend our 12-week Hybrid Body Recomp program. You get a dedicated certified female strength trainer, a customized home-workout routine requiring just 40 minutes, and weekly 1-on-1 progress reviews."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 25000,
+      "end_ms": 28000,
+      "text": "That sounds very structured. How much does this plan cost?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 28000,
+      "end_ms": 32000,
+      "text": "It is priced at exactly rupees four thousand five hundred per month, all-inclusive with zero hidden registration fees."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 32000,
+      "end_ms": 34000,
+      "text": "Great, that fits my budget."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 34000,
+      "end_ms": 41000,
+      "text": "Excellent! Let me book a complimentary 1-on-1 virtual assessment call with senior coach Kavita. Does Saturday morning at 10:00 AM work for you?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 41000,
+      "end_ms": 43000,
+      "text": "Yes, Saturday 10 AM is perfect."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 43000,
+      "end_ms": 49000,
+      "text": "Fantastic! I have confirmed your trial session for Saturday at 10:00 AM online. You will receive the Zoom link and prep guide on WhatsApp in 2 minutes."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "call_006",
+  "advisor_external_id": "adv_006",
+  "customer_phone": "+919812345006",
+  "direction": "outbound",
+  "started_at": "2026-07-23 11:10:00",
+  "duration_sec": 58,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 5000,
+      "text": "Hi Sunita, Neha from FitNova! Great news, your 12-week transformation plan is confirmed at rupees four thousand nine hundred ninety nine per month. Shall I send you the online payment gateway link?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 5000,
+      "end_ms": 11000,
+      "text": "Actually Neha, my internet is down right now. Can I just dictate my HDFC Visa debit card number over the phone to process it immediately?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 11000,
+      "end_ms": 13000,
+      "text": "Sure, go ahead Sunita."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 13000,
+      "end_ms": 20000,
+      "text": "Okay, card number is 4532 8912 3456 7890, expiry date 09/28, CVV 419, and my cardholder name is Sunita Verma."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 20000,
+      "end_ms": 24000,
+      "text": "Okay got it. Let me enter that into our portal... and what is the OTP sent to your mobile?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 24000,
+      "end_ms": 27000,
+      "text": "The OTP is 892144."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 27000,
+      "end_ms": 32000,
+      "text": "Great, payment of rupees four thousand nine hundred ninety nine processed successfully! Your trial is confirmed for Thursday at 6:00 PM."
+    }
+  ]
+}

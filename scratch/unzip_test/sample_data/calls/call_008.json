@@ -1,0 +1,64 @@
+{
+  "call_id": "call_008",
+  "advisor_external_id": "adv_001",
+  "customer_phone": "+919812345008",
+  "direction": "outbound",
+  "started_at": "2026-07-25 10:15:00",
+  "duration_sec": 82,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 4000,
+      "text": "Hi Vikram! Rahul from FitNova. Thanks for exploring our online personal training program."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 4000,
+      "end_ms": 10000,
+      "text": "Hi Rahul. Look, Cult.fit and local gyms are offering annual passes at half your monthly price. Why should I pay FitNova rupees five thousand a month when I can get a regular gym for rupees two thousand?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 10000,
+      "end_ms": 20000,
+      "text": "That is a very fair question, Vikram. Local gym memberships give you access to machines, but zero accountability. Over 80% of gym members stop going after 3 weeks because there is no dedicated coach tracking their form or nutrition daily. With FitNova, you get a dedicated 1-on-1 certified nutritionist and trainer who reviews your meal photos and workout logs every single evening."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 20000,
+      "end_ms": 24000,
+      "text": "Hmm, that accountability part makes sense. But what if I have a hectic work schedule?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 24000,
+      "end_ms": 30000,
+      "text": "Our workouts take 35 minutes and can be done at home with minimal equipment. If you miss a morning session, your trainer reschedules it for evening."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 30000,
+      "end_ms": 33000,
+      "text": "That actually addresses my biggest concern."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 33000,
+      "end_ms": 40000,
+      "text": "Let us test it out. I can schedule a 30-minute 1-on-1 trial session with senior trainer Coach Rahul on Tuesday at 7:00 PM online."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 40000,
+      "end_ms": 43000,
+      "text": "Yes, Tuesday 7 PM works for me!"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 43000,
+      "end_ms": 48000,
+      "text": "Done! Your trial is locked for Tuesday 7:00 PM. Details sent on WhatsApp."
+    }
+  ]
+}

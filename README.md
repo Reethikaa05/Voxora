@@ -1,12 +1,20 @@
-# 🎙️ FitNova Call Intelligence Platform
+# 🎙️ Voxora · FitNova Call Intelligence Platform
+
+<p align="center">
+  <a href="https://voxora-a0ss.onrender.com"><img src="https://img.shields.io/badge/🌐%20Live%20Demo-voxora--a0ss.onrender.com-ff4d26?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/Reethikaa05/Voxora"><img src="https://img.shields.io/badge/🐙%20GitHub%20Repo-Reethikaa05%2FVoxora-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Speech%20AI-Whisper%20ASR-FF4D26?style=for-the-badge" alt="Whisper ASR" />
   <img src="https://img.shields.io/badge/Database-SQLAlchemy%20%2F%20SQLite-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLAlchemy" />
   <img src="https://img.shields.io/badge/UI-Glassmorphic%20SPA-35C4A8?style=for-the-badge" alt="Glassmorphic UI" />
 </p>
+
+> 🌐 **Live Deployed Application**: [https://voxora-a0ss.onrender.com](https://voxora-a0ss.onrender.com)  
+> 🐙 **Official GitHub Repository**: [https://github.com/Reethikaa05/Voxora](https://github.com/Reethikaa05/Voxora)
 
 An automated, end-to-end **Speech AI Quality Assurance & Sales Intelligence System** designed for FitNova's tele-advisor operations. Every sales call ingested into FitNova gets transcribed, diarized, anonymized, scored against a 5-dimension rubric, and checked against a 10-tag issue taxonomy with instant roll-ups across Sales Directors, Team Leaders, and Advisors—plus a working dispute resolution feedback loop.
 

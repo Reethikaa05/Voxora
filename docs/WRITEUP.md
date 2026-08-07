@@ -1,6 +1,9 @@
-# Writeup
+# Technical Writeup · Voxora (FitNova Call Intelligence)
 
-## B. Analysis engine
+> 🌐 **Live Deployed Application**: [https://voxora-a0ss.onrender.com](https://voxora-a0ss.onrender.com)  
+> 🐙 **Official GitHub Repository**: [https://github.com/Reethikaa05/Voxora](https://github.com/Reethikaa05/Voxora)
+
+---
 
 ### Scoring rubric
 Five dimensions, each 0-10, rolled into a weighted 0-100 overall score

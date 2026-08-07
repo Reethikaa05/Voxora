@@ -1,0 +1,51 @@
+flowchart TD
+    subgraph Sources["Ingestion sources (source-agnostic)"]
+        A1[Telephony webhook<br/>Exotel / Ozonetel]
+        A2[Dialer export]
+        A3[CRM export / SFTP drop]
+        A4[Manual folder upload]
+    end
+
+    A1 --> FM[Field-map config<br/>YAML per vendor]
+    A2 --> FM
+    A3 --> FM
+    A4 --> FM
+
+    FM --> CR[Canonical Call Record]
+    CR --> ING[Idempotent ingest<br/>upsert on source_id + external_id]
+    ING --> ST{Already scored?}
+    ST -- yes --> DONE1[Skip -- no-op]
+    ST -- no --> ASR
+
+    subgraph ASRStage["Transcription + diarization"]
+        ASR[ASR provider<br/>MockASRProvider today<br/>WhisperASRProvider real path]
+    end
+
+    ASR --> NS{Non-sales call?<br/>wrong number / internal}
+    NS -- yes --> TAGNS[Tag NON_SALES_CALL<br/>store short transcript, stop]
+    NS -- no --> PII[PII redaction<br/>card / OTP / ID patterns]
+
+    PII --> AN
+
+    subgraph Analysis["Analysis engine"]
+        AN[Score 5 rubric dims<br/>+ grounded issue tagging]
+        AN --> ENGCHOICE{ANALYSIS_ENGINE}
+        ENGCHOICE -- heuristic --> HE[Regex / pattern engine<br/>runs today]
+        ENGCHOICE -- llm --> LLM[Claude structured-output call<br/>+ grounding validator]
+    end
+
+    HE --> ROLLUP[Roll up overall score<br/>weighted 0-100]
+    LLM --> ROLLUP
+
+    ROLLUP --> STORE[(Storage<br/>SQLite -> Postgres in prod)]
+    STORE --> DASH[Dashboards<br/>Org / Team / Advisor / Call]
+    DASH --> HUMAN[Team Leader / Advisor review]
+    HUMAN -- disagrees --> DISP[Dispute a tag]
+    DISP --> RESOLVE[Team Leader resolves<br/>accept -> dismiss / reject -> uphold]
+    RESOLVE --> FPR[False-positive-rate table<br/>per tag_type]
+    FPR -. retunes .-> HE
+    FPR -. retunes prompt/few-shot .-> LLM
+
+    RETRY[Retry + backoff wrapper<br/>ProcessingLog audit trail] -. wraps .- ASR
+    RETRY -. wraps .- AN
+    RETRY -. wraps .- STORE

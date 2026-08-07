@@ -1,0 +1,52 @@
+{
+  "call_id": "call_005",
+  "advisor_external_id": "adv_005",
+  "customer_phone": "+919812345005",
+  "direction": "outbound",
+  "started_at": "2026-07-22 15:45:00",
+  "duration_sec": 68,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 5000,
+      "text": "Haanji Rajesh ji, FitNova se Arjun baat kar raha hoon. Aapne hamare weight management program ke liye inquiry submit ki thi?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 5000,
+      "end_ms": 10000,
+      "text": "Haan Arjun, mujhe muscle gain aur belly fat reduce karna hai. Subah office ke wajha se gym jaane ka time nahi milta."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 10000,
+      "end_ms": 16000,
+      "text": "Sahi baat hai sir. Hamare 12-week online coaching mein personal trainer app ke zariye daily home workout plan send karega. Kya aap 45 minutes daily de sakte hain?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 16000,
+      "end_ms": 22000,
+      "text": "Haan, 45 mins evening mein de sakta hoon. Nutrition plan mein Indian vegetarian meal options honge na?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 22000,
+      "end_ms": 28000,
+      "text": "Bilkul sir! High-protein vegetarian diet chart include hoga with paneer, sprouts, aur whey options. Monthly fee rupees three thousand nine hundred ninety nine hai."
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 28000,
+      "end_ms": 32000,
+      "text": "Perfect, kal subah 11 baje demo trial book kar do."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 32000,
+      "end_ms": 37000,
+      "text": "Ji Rajesh ji, Sunday 11 AM demo session confirm kar diya hai. WhatsApp pe details share kar raha hoon."
+    }
+  ]
+}

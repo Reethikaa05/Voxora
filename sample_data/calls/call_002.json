@@ -1,0 +1,46 @@
+{
+  "call_id": "call_002",
+  "advisor_external_id": "adv_002",
+  "customer_phone": "+919812345002",
+  "direction": "outbound",
+  "started_at": "2026-07-21 11:30:00",
+  "duration_sec": 54,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 5000,
+      "text": "Hi Vivek! Sneha calling from FitNova. I saw you signed up for our transformation demo. I can guarantee you 100% that our 30-day VIP fat-shred program will make you lose 10 kg guaranteed with zero diet restrictions!"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 5000,
+      "end_ms": 9000,
+      "text": "10 kg in 30 days without diet control? Is that healthy or safe?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 9000,
+      "end_ms": 16000,
+      "text": "Don't worry at all! Our secret supplement protocol guarantees 10kg weight loss or 100% money back! But listen Vivek, I only have 1 discount slot left and it expires in 5 minutes! If you don't pay rupees six thousand right now, the price jumps to rupees twelve thousand!"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 16000,
+      "end_ms": 20000,
+      "text": "Wait, 5 minutes? That feels very rushed. Let me discuss with my doctor first."
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 20000,
+      "end_ms": 25000,
+      "text": "No need for doctor consultation, this deal closes in 300 seconds! Pay right now or lose the discount!"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 25000,
+      "end_ms": 29000,
+      "text": "Sorry Sneha, I don't appreciate being pressured like this. Please don't call again."
+    }
+  ]
+}

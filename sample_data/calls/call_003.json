@@ -1,0 +1,46 @@
+{
+  "call_id": "call_003",
+  "advisor_external_id": "adv_003",
+  "customer_phone": "+919812345003",
+  "direction": "outbound",
+  "started_at": "2026-07-21 14:20:00",
+  "duration_sec": 62,
+  "transcript": [
+    {
+      "speaker": "advisor",
+      "start_ms": 0,
+      "end_ms": 5000,
+      "text": "Hello Divya! Arjun from FitNova. We have our Pro Elite coaching plan running at rupees nine thousand nine hundred ninety nine per month or our Starter plan at rupees four thousand nine hundred ninety nine per month. Which one do you want to purchase today?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 5000,
+      "end_ms": 9000,
+      "text": "Hi Arjun... shouldn't you ask me what my fitness requirements are first?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 9000,
+      "end_ms": 14000,
+      "text": "Our rupees nine thousand nine hundred ninety nine plan includes personal trainer call 3 times a week, so most people buy that. Should I send you the payment link?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 14000,
+      "end_ms": 19000,
+      "text": "I haven't even told you if I want weight loss, muscle gain, or postpartum recovery. How can you recommend a 10k plan without asking anything?"
+    },
+    {
+      "speaker": "advisor",
+      "start_ms": 19000,
+      "end_ms": 22000,
+      "text": "Ah okay, so what is your goal?"
+    },
+    {
+      "speaker": "customer",
+      "start_ms": 22000,
+      "end_ms": 26000,
+      "text": "Honestly, your approach feels very transactional. I am going to explore other options."
+    }
+  ]
+}

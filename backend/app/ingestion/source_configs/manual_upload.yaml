@@ -1,0 +1,13 @@
+# Field map for calls dropped in sample_data/calls/*.json (or any folder-based
+# ingestion, e.g. a nightly CRM export). Every JSON file in the watched folder
+# is treated as one payload and mapped through this config.
+source_name: manual_upload
+mapping:
+  external_id: call_id
+  agent_external_id: advisor_external_id
+  customer_phone_masked: customer_phone
+  direction: direction
+  started_at: started_at
+  duration_sec: duration_sec
+  audio_uri: audio_uri
+  raw_transcript: transcript

@@ -121,26 +121,46 @@ Below is the complete walkthrough gallery of the **FitNova Call Intelligence** p
 
 ---
 
-## ⚡ Quick Start (One Clear Command)
+## ⚡ Quick Start & Setup Guide
 
-### Prerequisites
-- **Python 3.10+**
+### 📋 Prerequisites
+- **Python 3.10+** (Python 3.11 recommended)
+- **Git**
 
-### 🚀 Launching the Demo
-Run the single command script below to install dependencies, seed the organization hierarchy (FitNova → 3 Pods → 7 Advisors), run the pipeline over sample call records, and launch the web server on **`http://localhost:8000`**:
+---
 
-#### **Linux / macOS**
-```bash
-./run.sh
-```
+### 💻 Option A: VS Code Terminal Setup (Windows Virtual Environment)
 
-#### **Windows (PowerShell / CMD)**
-Option 1 (Direct Command):
-```powershell
-python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
-```
+If running inside VS Code terminal on Windows, follow these 4 simple steps:
 
-Option 2 (Script):
+1. **Create Virtual Environment**:
+   ```powershell
+   python -m venv .venv
+   ```
+
+2. **Activate Virtual Environment**:
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+   > [!NOTE]
+   > If PowerShell displays a script execution policy error, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first, then run `.\.venv\Scripts\Activate.ps1` again.
+
+3. **Install Required Packages**:
+   ```powershell
+   pip install -r requirements.txt
+   ```
+
+4. **Launch Application**:
+   ```powershell
+   python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
+   ```
+   *(Or run `.\run.ps1` or `run.bat`)*
+
+---
+
+### 🚀 Option B: 1-Click Launch Scripts
+
+#### **Windows (CMD / PowerShell)**:
 ```cmd
 run.bat
 ```
@@ -149,8 +169,15 @@ or
 .\run.ps1
 ```
 
+#### **Linux / macOS**:
+```bash
+./run.sh
+```
+
+---
+
 > [!TIP]
-> Navigating to `http://localhost:8000` opens the **Dual Hero Landing Page** featuring the Earth Hand-Touch Video Hero, Cyber TV Telemetry Visualizer, 5-Stage Pipeline, and direct links to all dashboards (`/#/org`, `/#/login`).
+> Navigating to **`http://localhost:8000`** in your browser opens the **Dual Hero Landing Page** featuring the Earth Hand-Touch Video Hero, Cyber TV Telemetry Visualizer, 5-Stage Pipeline, and direct links to all dashboards (`/#/org`, `/#/login`).
 
 ---
 
